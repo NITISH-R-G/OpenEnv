@@ -390,6 +390,7 @@ And we'd also like to acknowledge the team at Farama Foundation as the OpenEnv A
 
 BSD 3-Clause License (see [LICENSE](./LICENSE) file)
 
+
 <!-- ARCHITECTURE_START -->
 ## Architecture Overview
 
@@ -403,6 +404,7 @@ graph TD
   tests
   tutorial
   envs --> External_Dependencies
+  envs --> tests
   examples --> External_Dependencies
   examples --> envs
   scripts --> External_Dependencies
@@ -412,7 +414,8 @@ graph TD
 ```
 
 ### Detected Tech Stack
-`PIL`, `__ENV_NAME___environment`, `__future__`, `_cli_utils`, `_discovery`, `abc`, `acl`, `action_bias`, `ale_py`, `anthropic`, `apis`, `argparse`, `atari_env`, `atari_environment`, `atexit` (and others)
+`AppKit`, `Cryptodome`, `Cython`, `Foundation`, `IPython`, `Image`, `JpegImagePlugin`, `JpegPresets`, `MpoImagePlugin`, `Numeric`, `OpenSSL`, `PIL`, `PcxImagePlugin`, `PyInstaller`, `PyQt4` (and others)
 
 *Note: This architecture overview is continuously updated by the AI Doc Agent.*
 <!-- ARCHITECTURE_END -->
+
