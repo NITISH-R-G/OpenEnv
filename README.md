@@ -389,3 +389,30 @@ And we'd also like to acknowledge the team at Farama Foundation as the OpenEnv A
 ## License
 
 BSD 3-Clause License (see [LICENSE](./LICENSE) file)
+
+<!-- ARCHITECTURE_START -->
+## Architecture Overview
+
+```mermaid
+graph TD
+  External_Dependencies
+  envs
+  examples
+  scripts
+  src
+  tests
+  tutorial
+  envs --> External_Dependencies
+  examples --> External_Dependencies
+  examples --> envs
+  scripts --> External_Dependencies
+  src --> External_Dependencies
+  tutorial --> External_Dependencies
+  tutorial --> envs
+```
+
+### Detected Tech Stack
+`PIL`, `__ENV_NAME___environment`, `__future__`, `_cli_utils`, `_discovery`, `abc`, `acl`, `action_bias`, `ale_py`, `anthropic`, `apis`, `argparse`, `atari_env`, `atari_environment`, `atexit` (and others)
+
+*Note: This architecture overview is continuously updated by the AI Doc Agent.*
+<!-- ARCHITECTURE_END -->
