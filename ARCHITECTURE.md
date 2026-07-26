@@ -1,6 +1,6 @@
 # Repository Architecture & Knowledge Graph
 
-*Last updated by AI Doc Agent: 2026-07-19 02:31:59*
+*Last updated by AI Doc Agent: 2026-07-26 02:36:18*
 
 ## AI Summary
 This repository consists of **6059** tracked Python modules. The architecture is modular, separating core framework logic (`src/`) from specific environment implementations (`envs/`). External dependencies are isolated to specific environments where possible.
