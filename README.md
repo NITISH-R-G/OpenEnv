@@ -401,6 +401,7 @@ BSD 3-Clause License (see [LICENSE](./LICENSE) file)
 
 
 
+
 <!-- ARCHITECTURE_START -->
 ## Architecture Overview
 
@@ -428,6 +429,7 @@ graph TD
 
 *Note: This architecture overview is continuously updated by the AI Doc Agent.*
 <!-- ARCHITECTURE_END -->
+
 
 
 
